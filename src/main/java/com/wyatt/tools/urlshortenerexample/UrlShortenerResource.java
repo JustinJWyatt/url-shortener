@@ -27,7 +27,7 @@ public class UrlShortenerResource {
 
         UrlValidator validator = new UrlValidator(new String[] { "http", "https"});
 
-        if (validator.isValid(url)){
+        if (validator.is    Valid(url)){
 
             String id = Hashing.murmur3_32().hashString(url, StandardCharsets.UTF_8).toString();
 
