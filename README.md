@@ -1,2 +1,2 @@
-# url-shortener
-Url shortener app written in Java using Redis
+# URL Shortener
+Url shortener app written in Java + Spring using Redis
