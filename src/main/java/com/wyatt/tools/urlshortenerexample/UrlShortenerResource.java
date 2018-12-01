@@ -16,6 +16,7 @@ public class UrlShortenerResource {
 
     Jedis jedis = new Jedis();
 
+    @CrossOrigin
     @GetMapping("/{id}")
     public String getUrl(@PathVariable String id){
 
